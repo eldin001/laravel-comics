@@ -40,9 +40,19 @@ header {
     
 }
 
-.cards {
-    background-color: $darkGray;
-    width: 100%;
+main {
+    .first {
+
+        display: flex;
+        gap: 10px;
+
+    }
+    .e-card {
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
 }
 
 .main {
@@ -74,3 +84,4 @@ header {
         bottom: 70px;
     }
 }
+
