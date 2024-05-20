@@ -12,3 +12,65 @@ $fa-font-path: "../webfonts" !default;
 body {
     font-family: $basefont;
 }
+
+footer {
+    height: 150px;
+    background-color: $lightGray;
+}
+
+.button {
+    height: 40px;
+    border: 2px solid $azure;
+    width: 150px;
+
+    
+}
+
+a {
+    color: gray;
+    height: 100%;
+
+    &:hover {
+        color: $azure;
+    }
+}
+
+header {
+    border-bottom: 5px solid $azure;
+    
+}
+
+.cards {
+    background-color: $darkGray;
+    width: 100%;
+}
+
+.main {
+    img {
+        width: 50px;
+    }
+}
+
+.container {
+    height: 150px;
+}
+
+.sub-nav {
+    background-color: $azure;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.links {
+    background-image: url(../../public/img/footer-bg.jpg);
+    height: 450px;
+    overflow: hidden;
+    color: white;
+
+    img {
+        width: 600px;
+        position: relative;
+        bottom: 70px;
+    }
+}
