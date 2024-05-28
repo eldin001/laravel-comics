@@ -3,7 +3,7 @@
 @section('title', 'Edit Comic')
 
 @section('content')
-<main>
+<main class="edit">
     <h1>Edit Comic</h1>
     <form action="{{ route('comics.update', $comic->id) }}" method="POST">
         @csrf

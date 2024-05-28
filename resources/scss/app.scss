@@ -118,3 +118,22 @@ main {
 
     }
 }
+
+.edit {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+
+    .comic-item {
+        display: flex;
+        border: 1px solid green;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        img {
+            width: 20%;
+        }
+    }
+
+}

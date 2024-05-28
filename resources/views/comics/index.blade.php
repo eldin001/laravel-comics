@@ -3,7 +3,7 @@
 @section('title', 'Comics Index')
 
 @section('content')
-<main>
+<main class="edit">
     <h1>All Comics</h1>
     <a href="{{ route('comics.create') }}">Create New Comic</a>
     <div class="comics-list">
