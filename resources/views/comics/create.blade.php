@@ -3,9 +3,9 @@
 @section('title', 'Create Comic')
 
 @section('content')
-<main>
-    <h1>Create Comic</h1>
+<main class="create">
     <form action="{{ route('comics.store') }}" method="POST">
+    <h1>Create Comic</h1>
         @csrf
         <label for="title">Title:</label>
         <input type="text" id="title" name="title" required>
@@ -32,3 +32,4 @@
     </form>
 </main>
 @endsection
+

@@ -85,3 +85,36 @@ main {
     }
 }
 
+.create {
+    color: #E6F4F1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0082F9;
+
+
+    form {
+        border-radius: 15px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        background-color: #424656;
+    }
+
+    input, textarea {
+        width: 70%;
+        height: 30px;
+        background-color: #99AAE0;
+        border-radius: 15px;
+        border: none;
+        padding: 20px;
+    }
+
+    button{
+
+    }
+}
