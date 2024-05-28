@@ -9,6 +9,7 @@
             @foreach ($comics as $comic)
             <div class="e-card">
                 <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                <p>{{ $comic['title'] }}</p>
             </div>
             @endforeach
         </div>
@@ -18,7 +19,6 @@
             <ul class="d-flex list-unstyled justify-content-center align-items-center gap-5 ">
                 <li class="d-flex gap-3 align-items-center" v-for="item in items" :key="item.imageUrl">
                     <img :src="'/img/' + item.image" alt="Image description">
-
             </ul>
         </div>
     </div>
