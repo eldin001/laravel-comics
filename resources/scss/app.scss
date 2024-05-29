@@ -120,13 +120,11 @@ main {
 }
 
 .edit {
-    border: 3px solid red;
     display: flex;
     flex-direction: column;
 
     .comic-item {
         display: flex;
-        border: 1px solid green;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -136,4 +134,18 @@ main {
         }
     }
 
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.create {
+    button{
+        background-color: rgb(15, 159, 15);
+        color: white;
+    }
 }
