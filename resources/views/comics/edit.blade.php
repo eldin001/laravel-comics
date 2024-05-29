@@ -4,8 +4,8 @@
 
 @section('content')
 <main class="edit">
-    <h1>Edit Comic</h1>
     <form action="{{ route('comics.update', $comic->id) }}" method="POST">
+    <h1>Edit Comic</h1>
         @csrf
         @method('PUT')
         
